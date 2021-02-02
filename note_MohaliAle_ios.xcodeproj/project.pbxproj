@@ -16,6 +16,7 @@
 		EECCA3F325C94770009E3554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECCA3F125C94770009E3554 /* LaunchScreen.storyboard */; };
 		EECCA3FE25C94770009E3554 /* note_MohaliAle_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECCA3FD25C94770009E3554 /* note_MohaliAle_iosTests.swift */; };
 		EECCA40925C94770009E3554 /* note_MohaliAle_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECCA40825C94770009E3554 /* note_MohaliAle_iosUITests.swift */; };
+		EECCA41725C94958009E3554 /* CategoryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECCA41625C94958009E3554 /* CategoryTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		EECCA40425C94770009E3554 /* note_MohaliAle_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = note_MohaliAle_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECCA40825C94770009E3554 /* note_MohaliAle_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = note_MohaliAle_iosUITests.swift; sourceTree = "<group>"; };
 		EECCA40A25C94770009E3554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EECCA41625C94958009E3554 /* CategoryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +103,15 @@
 		EECCA3E225C94762009E3554 /* note_MohaliAle_ios */ = {
 			isa = PBXGroup;
 			children = (
+				EECCA41A25C94981009E3554 /* dataModel */,
 				EECCA3E325C94762009E3554 /* AppDelegate.swift */,
 				EECCA3E525C94762009E3554 /* SceneDelegate.swift */,
 				EECCA3E725C94762009E3554 /* ViewController.swift */,
-				EECCA3E925C94762009E3554 /* Main.storyboard */,
+				EECCA41925C94973009E3554 /* storyboard */,
+				EECCA41825C94961009E3554 /* VC */,
 				EECCA3EF25C94770009E3554 /* Assets.xcassets */,
 				EECCA3F125C94770009E3554 /* LaunchScreen.storyboard */,
 				EECCA3F425C94770009E3554 /* Info.plist */,
-				EECCA3EC25C94762009E3554 /* note_MohaliAle_ios.xcdatamodeld */,
 			);
 			path = note_MohaliAle_ios;
 			sourceTree = "<group>";
@@ -129,6 +132,30 @@
 				EECCA40A25C94770009E3554 /* Info.plist */,
 			);
 			path = note_MohaliAle_iosUITests;
+			sourceTree = "<group>";
+		};
+		EECCA41825C94961009E3554 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				EECCA41625C94958009E3554 /* CategoryTVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		EECCA41925C94973009E3554 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EECCA3E925C94762009E3554 /* Main.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		EECCA41A25C94981009E3554 /* dataModel */ = {
+			isa = PBXGroup;
+			children = (
+				EECCA3EC25C94762009E3554 /* note_MohaliAle_ios.xcdatamodeld */,
+			);
+			path = dataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +291,7 @@
 			files = (
 				EECCA3E825C94762009E3554 /* ViewController.swift in Sources */,
 				EECCA3E425C94762009E3554 /* AppDelegate.swift in Sources */,
+				EECCA41725C94958009E3554 /* CategoryTVC.swift in Sources */,
 				EECCA3EE25C94762009E3554 /* note_MohaliAle_ios.xcdatamodeld in Sources */,
 				EECCA3E625C94762009E3554 /* SceneDelegate.swift in Sources */,
 			);
